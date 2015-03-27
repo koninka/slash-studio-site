@@ -36,8 +36,8 @@ else
 fi
 
 php app/console assets:install web --symlink
-# php app/console mopa:bootstrap:symlink:less
-# php app/console mopa:bootstrap:install:font
+php app/console mopa:bootstrap:symlink:less
+php app/console mopa:bootstrap:install:font
 
 set_permissions
 
