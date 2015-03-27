@@ -1,0 +1,3 @@
+slash_app_mainpage:
+    path:       /
+    defaults: { _controller: AppBundle:App:index }
